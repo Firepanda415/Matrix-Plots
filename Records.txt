@@ -1,0 +1,159 @@
+Method 0
+##  Lima 
+
+Rank=31 # singular value < 1e-3=9
+
+Inf norm=0.01033, Frobenius norm=0.01442, 2-Norm=0.005208
+
+Among 1024 entries, 970 entries < 1e-3, 767 entries < 1e-4, 217 entries < 1e-6
+
+## Quito
+
+Rank=31 # singular value < 1e-3=8
+
+Inf norm=0.01459, Frobenius norm=0.01665, 2-Norm=0.008092
+
+Among 1024 entries, 967 entries < 1e-3, 721 entries < 1e-4, 182 entries < 1e-6
+
+
+## Belem
+
+Rank=31 # singular value < 1e-3=8
+
+Inf norm=0.01111, Frobenius norm=0.01735, 2-Norm=0.006085
+
+Among 1024 entries, 948 entries < 1e-3, 746 entries < 1e-4, 185 entries < 1e-6
+
+
+
+
+
+
+
+Method 1
+
+
+## Lima
+
+Difference between full matrix and the matrix from this method:
+
+Inf norm=0.01284, Frobenius norm=0.01941, 2-Norm=0.007467
+
+Among 1024 entries, 949 entries < 1e-3, 757 entries < 1e-4, 209 entries < 1e-6
+
+## Quito
+
+Inf norm=0.01759, Frobenius norm=0.0324, 2-Norm=0.01149
+
+Among 1024 entries, 930 entries < 1e-3, 706 entries < 1e-4, 178 entries < 1e-6
+
+
+## Belem
+Inf norm=0.01627, Frobenius norm=0.02432, 2-Norm=0.01018
+
+Among 1024 entries, 926 entries < 1e-3, 729 entries < 1e-4, 177 entries < 1e-6|
+
+
+
+
+
+
+Method 2
+
+ ## Lima
+
+Difference between full matrix and the matrix from this method:
+
+
+Rank=31 # singular value < 1e-3=9
+
+Inf norm=0.01047, Frobenius norm=0.01927, 2-Norm=0.007424
+
+Among 1024 entries, 956 entries < 1e-3, 762 entries < 1e-4, 227 entries < 1e-6
+
+
+### use first 25% data
+
+Inf norm=0.01801, Frobenius norm=0.03068, 2-Norm=0.0107
+
+Among 1024 entries, 927 entries < 1e-3, 747 entries < 1e-4, 233 entries < 1e-6
+
+
+## Quito
+
+Rank=31 # singular value < 1e-3=8
+
+Inf norm=0.01774, Frobenius norm=0.0245, 2-Norm=0.01069
+
+Among 1024 entries, 942 entries < 1e-3, 739 entries < 1e-4, 203 entries < 1e-6
+
+
+### use first 25% data
+Inf norm=0.02356, Frobenius norm=0.04237, 2-Norm=0.0156
+
+Among 1024 entries, 913 entries < 1e-3, 708 entries < 1e-4, 201 entries < 1e-6
+
+
+## Belem
+
+Rank=31 # singular value < 1e-3=8
+
+Inf norm=0.01527, Frobenius norm=0.02253, 2-Norm=0.008683
+
+Among 1024 entries, 948 entries < 1e-3, 751 entries < 1e-4, 192 entries < 1e-6
+
+
+
+### use first 25% data
+Inf norm=0.01898, Frobenius norm=0.03147, 2-Norm=0.0102
+
+Among 1024 entries, 910 entries < 1e-3, 705 entries < 1e-4, 212 entries < 1e-6
+
+
+
+
+
+Method 3
+
+ 
+## Lima
+
+Difference between full matrix and the matrix from this method:
+
+Inf norm=0.01053, Frobenius norm=0.01495, 2-Norm=0.005593
+
+Among 1024 entries, 979 entries < 1e-3, 764 entries < 1e-4, 220 entries < 1e-6
+
+### Use 560,000 measurements for 1 Prob
+
+Inf norm=0.01956, Frobenius norm=0.04031, 2-Norm=0.01378
+
+Among 1024 entries, 904 entries < 1e-3, 723 entries < 1e-4, 205 entries < 1e-6
+
+
+## Quito
+
+Inf norm=0.01569, Frobenius norm=0.01722, 2-Norm=0.008856
+
+Among 1024 entries, 965 entries < 1e-3, 727 entries < 1e-4, 191 entries < 1e-6
+
+### Use 560,000 measurements for 1 Prob
+
+Inf norm=0.02044, Frobenius norm=0.03067, 2-Norm=0.01026
+
+Among 1024 entries, 932 entries < 1e-3, 709 entries < 1e-4, 184 entries < 1e-6
+
+
+
+
+## Belem
+
+Inf norm=0.01126, Frobenius norm=0.01798, 2-Norm=0.006482
+
+Among 1024 entries, 952 entries < 1e-3, 751 entries < 1e-4, 185 entries < 1e-6
+
+### Use 560,000 measurements for 1 Prob
+
+Inf norm=0.0179, Frobenius norm=0.03217, 2-Norm=0.01091
+
+Among 1024 entries, 898 entries < 1e-3, 715 entries < 1e-4, 206 entries < 1e-6

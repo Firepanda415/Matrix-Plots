@@ -1,4 +1,4 @@
-function y=obj(x)
+function y=obj(x, file_address)
 % function y=obj(x)
 % First n variables of x are Pr(0|0), 
 % last n variables of x are Pr(1|1)
@@ -23,7 +23,7 @@ function y=obj(x)
 %     end
     
 
-    A_full = readmatrix('BelemData/Afull.txt');
+    A_full = readmatrix(strcat(file_address,'/Afull.txt'));
        
     y = norm(A_full - A_ind,'fro')^2;
 end

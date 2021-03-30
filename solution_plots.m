@@ -24,7 +24,10 @@ clc;clear;close all;
 % First n variables of x are Pr(0|0), 
 % last n variables of x are Pr(1|1)
 
-num_qubits = 5;
+num_qubits = 3;
+file_address = 'LimaData';
+
 x0 = ones(1,2*num_qubits)*0.9;
-[xopt,fval,exitflag,output] = fminsearch(@obj, x0);
-writematrix(xopt, 'BelemData/Aopt.txt')
+f = @(x) obj(x, file_address);
+[xopt,fval,exitflag,output] = fminsearch(f, x0);
+writematrix(xopt, strcat(file_address,'/Aopt.txt'));
